@@ -5,6 +5,22 @@ a {
   text-decoration: none;
 }
 
+strong {
+  color: #173b6c;
+}
+
+.card-header, .card-footer {
+  background-color: #e4edf9;
+}
+
+.on-left{
+  text-align:left;
+}
+
+.on-right{
+  float:right;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -214,8 +230,4 @@ section {
   margin-bottom: 0;
   font-size: 20px;
   text-align: justify;
-}
-
-.section-title p strong {
-  color: #173b6c;
 }
